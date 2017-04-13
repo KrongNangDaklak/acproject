@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="firebase.hoangduchuu.net.appchat.activity.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/editChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chat"/>
+
+
+    <TextView
+        android:id="@+id/tvKhoaHoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="khoaohc"
+        android:textColor="@color/colorAccent"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="auto"/>
+</LinearLayout>
